@@ -406,6 +406,14 @@ module.exports = function (
   }
   console.log();
   console.log('Happy hacking!');
+  ......
+......
+console.log(chalk.red('VERY IMPORTANT:'));
+console.log('Create a .env file at the root of your project with REACT_APP_EMPLOYEE_ID and REACT_APP_POSITION_ID');
+console.log('  You can find these values in the company dashboard under application settings.');
+console.log('  https://company.bamboohr.com/settings');
+console.log();
+.......
 };
 
 function isReactInstalled(appPackage) {
